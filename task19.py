@@ -1,8 +1,7 @@
 text = "Salom dunyo"
-find = "a, e, i, o, u"
+find = "aeiou"
 count = 0
-if text in find:
- 
-  for letter in text:
+for letter in text:
+ if letter in find:
    count +=1
 print(count)
